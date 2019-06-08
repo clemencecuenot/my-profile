@@ -1,0 +1,110 @@
+/* colors and fonts */
+
+body{
+	background: rgb(247,249,252);
+	color: rgb(87,95,125);
+	font-family: 'Lora', serif;;
+	font-size: 16px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+
+h1, h2{
+	font-family: courier;
+
+}
+h1{
+	color: rgb(135,192,205); 
+	font-weight: 5;
+	letter-spacing: 8px;
+	font-size: 30px;
+}
+
+h2{
+	color: rgb(34,101,151); 
+	font-weight: 30;
+	letter-spacing: 6px;
+	font-size: 24px
+}
+
+a{
+	font-family: courier;
+	text-decoration: none;
+	color: rgb(135,192,205); 
+	font-weight: bold;
+}
+
+a:hover {
+  color: rgb(18,211,207);
+
+}
+
+/* Custom design with class */
+
+.container{
+	width: 800px;
+ 	margin: 18px auto;
+}
+
+.box-white{
+	background: white;
+	margin: 18px auto;
+	padding: 15px 45px 15px 45px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	border-radius: 4px;
+	border: 1px solid rgb(113, 160, 165);
+}
+
+#box-center{
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 60px;
+	width: 120px;
+	max-height: 200px;
+}
+
+.btn-blue{
+	background-color: rgb(87,95,125);
+	color: white;
+	padding: 5px 10px; 
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i { 
+	font-size: 40px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover { 
+	font-size: 40px;
+	color: rgb(135,192,205);
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
